@@ -1,0 +1,55 @@
+@import '~highcharts/css/highcharts.css';
+
+/*mat-icon,a{
+  margin: auto 8px;
+}*/
+
+/*a, mat-list-item{
+  margin: 0 8px;
+}*/
+
+.active {
+  background-color: #7e5bef;
+  color: white;
+}
+
+/* Adjusting styles for mat-list-item and mat-icon */
+.active a.mat-list-item{
+  color: white !important;
+  text-decoration: none; /* To remove underlines from the link */
+}
+
+.active span{
+color: white;
+
+}
+
+.active mat-icon {
+  color: white;
+}
+
+.col{
+  overflow: hidden;
+
+}
+
+.nav-item{
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+mat-icon{
+  padding-top: 1.5px;
+}
+
+
+.logo {
+  text-align: center; /* Center the logo horizontally */
+  padding: 10px; /* Add some padding for spacing */
+}
+
+.logo img {
+  max-width: 100%; /* Ensure the image fits within the container */
+  height: auto; /* Maintain aspect ratio */
+}
